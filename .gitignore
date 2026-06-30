@@ -218,3 +218,9 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Project data files — never commit raw/processed CSVs
+data/raw/*.csv
+data/processed/*.csv
+debug_page.html
+
